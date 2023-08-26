@@ -1,0 +1,34 @@
+/* Add CSS for pagination controls */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #2980b9;
+  }
+  
+  .pagination span {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+  }
+  
